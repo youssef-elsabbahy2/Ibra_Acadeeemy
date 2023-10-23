@@ -1,0 +1,717 @@
+
+
+body
+{
+    font-family: "Tajawal";
+    font-weight: 600;
+    margin: 0;
+
+}
+.color
+{
+    color:rgba(242, 172, 13, 1);
+    font-weight: bolder;
+    font-size: 40px;
+  
+}
+.color-2
+{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.btncolor
+{
+    background-color:rgba(242, 172, 13, 1);    border: 0;
+}
+.btncolor-2
+{
+    background-color: #183153;    border: 0;
+    color: white;
+}
+.btncolor1
+{
+    background-color: #183153;
+    color: white;
+    width: 200px;
+    border: 0;
+    font-size:20px;
+    
+}
+.btncolor2
+{
+    background-color:rgba(242, 172, 13, 1);
+    color: black;
+    width: 200px;
+    border: 0;
+    font-size:20px;
+    
+}
+
+h1
+{
+    
+    font-size: 60px;
+}
+a
+{
+    text-decoration: none;
+}
+h2
+{
+    
+ font-weight: bold;
+}
+
+.card
+{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+
+.card:hover{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.edit2
+{
+    height: 293px;
+}
+.edit4
+{
+    width: 40%;
+}
+.div-img
+{
+    height: 184px
+}
+.img svg
+{
+  width: 400px;
+}
+.edit5
+{
+  width: 400px;
+}
+.t-edit
+{
+  color: white;
+  transition: .5s;
+}
+.t-edit:hover
+{
+color: rgba(242, 172, 13, 1);
+}
+
+
+
+.ul2
+{
+  margin-left: 80px;
+}
+
+.edit-sm
+{
+  filter: drop-shadow(20px 20px 20px black);;color: white; font-size: 100px;
+}
+@media screen and (min-width:20px) and (max-width:1000px) {
+
+ 
+
+
+  .fa-seacrh-sm
+{
+  left: -11px;
+  position: relative;
+  top: 57px;
+  font-size: 23px;
+}
+.edit-sm-in
+{
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 24px;
+  padding-right: 45px;
+}
+  .noneee
+  {
+    display: none;
+  }
+
+    .edit
+    {
+        flex-direction: row-reverse;
+    }
+    .edit2
+    {
+        height: 450px;
+    }
+    .edit4
+    {
+        width: 100%;
+    }
+    .edit5
+    {
+      width: 300px;
+    }
+    .edit6
+    {
+      flex-wrap: wrap;
+     gap: 20px;
+    }
+
+  
+
+  
+    .div-img
+    {
+        height: 236px;
+    }
+    .edit3
+    {
+        display: none;
+    }
+    .img svg
+    {
+      width: 300px;
+    }
+    .surahContainer .surah
+    {
+      min-width: 310px;
+    }
+}
+
+
+
+figure.snip0016 {
+    font-family: 'Raleway', Arial, sans-serif;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    background: #000000;
+    text-align: left;
+  }
+  figure.snip0016 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  figure.snip0016 img {
+    opacity: 1;
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+  }
+  figure.snip0016 figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 30px 3em;
+    width: 100%;
+    height: 100%;
+  }
+  figure.snip0016 figcaption::before {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 100%;
+    border-left: 4px solid rgba(255, 255, 255, 0.8);
+    content: '';
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transition-delay: 0.6s;
+    transition-delay: 0.6s;
+  }
+  figure.snip0016 h2,
+  figure.snip0016 p {
+    margin: 0 0 5px;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s,-webkit-transform 0.35s,-moz-transform 0.35s,-o-transform 0.35s,transform 0.35s;
+  }
+  figure.snip0016 h2 {
+    word-spacing: -0.15em;
+    font-weight: 300;
+    text-transform: uppercase;
+    -webkit-transform: translate3d(30%, 0%, 0);
+    transform: translate3d(30%, 0%, 0);
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+  }
+  figure.snip0016 h2 span {
+    font-weight: 800;
+  }
+  figure.snip0016 p {
+    font-weight: 200;
+    -webkit-transform: translate3d(0%, 30%, 0);
+    transform: translate3d(0%, 30%, 0);
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+  }
+  figure.snip0016 a {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    color: #ffffff;
+  }
+  figure.snip0016:hover img {
+    opacity: 0.3;
+  }
+  figure.snip0016:hover figcaption h2 {
+    opacity: 1;
+    -webkit-transform: translate3d(0%, 0%, 0);
+    transform: translate3d(0%, 0%, 0);
+    -webkit-transition-delay: 0.4s;
+    transition-delay: 0.4s;
+  }
+  figure.snip0016:hover figcaption p {
+    opacity: 0.9;
+    -webkit-transform: translate3d(0%, 0%, 0);
+    transform: translate3d(0%, 0%, 0);
+    -webkit-transition-delay: 0.6s;
+    transition-delay: 0.6s;
+  }
+  figure.snip0016:hover figcaption::before {
+    background: rgba(255, 255, 255, 0);
+    left: 30px;
+    opacity: 1;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+  }
+
+.dropdown-toggle::after {
+    display: none;
+  }
+.text-decoration-none{
+  text-decoration: none!important;
+}
+/* Font Awesome Icons have variable width. Added fixed width to fix that.*/
+.icon-width { width: 2rem;}
+
+
+.img-fuild 
+{
+    height: 444px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-section {
+  background: #151414;
+  position: relative;
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+.single-cta i {
+  color: rgba(242, 172, 13, 1);
+  font-size: 30px;
+
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: #757575;
+  font-size: 23px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+      color: #7e7e7e;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+
+.facebook-bg{
+  background: #3B5998;
+}
+.twitter-bg{
+  background: #55ACEE;
+}
+.google-bg{
+  background: #DD4B39;
+}
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  height: 2px;
+  width: 82px;
+  background: rgba(242, 172, 13, 1);
+}
+.footer-widget ul li {
+  display: inline-block;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+  color: rgba(242, 172, 13, 1);
+}
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: rgba(242, 172, 13, 1);
+    padding: 13px 20px;
+    border: 1px solid rgba(242, 172, 13, 1);
+    top: 0;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area{
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a{
+  color: rgba(242, 172, 13, 1);
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: rgba(242, 172, 13, 1);
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+  box-sizing: border-box;
+}
+
+/* Pray for Section */
+.box{
+  min-height: 350px;
+  position: relative;
+  box-shadow: 4px 4px 4px 0 inset rgb(179, 175, 175),
+              -4px -4px 4px 0px inset rgb(179, 175, 175);
+  color: rgb(27, 23, 19);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content:center; 
+  padding: 50px 20px;
+  margin-top: 45px;
+  color: rgb(11, 71, 11); 
+  border-bottom: 10px #00000075 solid;         
+}
+/* Pray Section */
+.name{
+  text-align: center;
+  color: #247429;
+  margin: 3em 0 1.5em 0;
+  font-family: 'katibeh';
+  font-size: 36px;
+}
+.pray .cards{
+  display: flex;
+  flex-wrap: wrap;
+  direction: rtl;
+}
+.cards .card{
+  min-height: 320px;
+  box-shadow: 0 0 5px rgb(0,0,0,0.5);
+  padding: 30px 20px;
+  margin: 20px auto;
+}
+.card:hover{
+  transform: scale(0.98);
+  transition: .5s all
+}
+.card .circle{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle svg{
+  width: 210px;
+  height: 210px;
+}
+.circle svg circle{
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke-width: 10;
+  stroke: #43a047;
+  transform: translate(5px,5px);
+  stroke-dasharray: 630px;
+  stroke-dashoffset: 70px;
+  animation: dash 2s linear infinite;
+}
+.circle .prayTime{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  color: #43a047;
+  font-size: 40px;
+  font-family: cursive;
+  text-align: center;
+}
+
+
+/* Scroll Btn */
+.scrollBtn{
+  direction: rtl;
+  position: fixed;
+  right: 20px;
+  bottom: 0;
+  color: white;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: .2s bottom ease-in-out;
+  bottom: -50px;
+  cursor:pointer;
+}
+.scrollBtn.active{
+  bottom: 20px;
+}
+
+.verse_edit
+{
+  flex-direction: row;
+}
+
+@media (max-width : 1024px) {
+  .lecture-container .right, .lecture-container .left {
+      width: 98%;
+  }
+
+}
+
+@media (min-width: 276px) { 
+  .container {
+      max-width: 540px;
+  }   
+  .edit-sm
+  {
+    font-size: 70px;
+  }
+
+.verse_edit
+{
+  flex-direction: column-reverse;
+}
+
+}
+.edit-svg
+{
+  fill: white;
+  width: 312px;
+  /* font-size: 20px; */
+}
+@media (min-width: 768px){ 
+.container {
+  max-width: 740px;
+  }
+  .edit-sm-in
+  {
+    font-size: 20px;
+    padding: 21px 280px;
+    margin-right: -161px;
+    box-sizing: revert;
+    padding-right: 41px;
+  }
+  .verse_edit
+      {
+        flex-direction: row;
+      }
+  .edit-svg
+  {
+        width: 471px;
+    margin-top: -46px;
+  }
+
+  .fa-seacrh-sm {
+    left: 149px;}
+}
+
+@media (min-width: 1000px){ 
+  .container {
+      max-width: 1000px;
+      }
+    
+      .fa-seacrh-sm
+{
+  font-size: 23px;
+    position: relative;
+    top: 54px;
+    left: 153px;
+    margin: 5px;
+}
+
+
+   
+}
+
+
+
+

@@ -1,0 +1,122 @@
+/* Azkar Section */
+section h3{
+    font-size: 30px;
+    color: green;
+    text-align: center;
+    left: 50%;
+    margin-top: 30px;
+}
+.zekrContainer{
+    min-height: 350px;
+    position: relative;
+    box-shadow: 4px 4px 4px 0 inset rgb(179, 175, 175),
+                -4px -4px 4px 0px inset rgb(179, 175, 175);
+    color: rgb(27, 23, 19);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:center; 
+    padding: 50px 20px;
+    margin-top: 50px;   
+    cursor: pointer;        
+}
+.zekr .buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.zekr .buttons div{
+    border: 2px rgb(48, 172, 43) solid;
+    color: rgb(54, 160, 63);
+    margin-top: 12px;
+    border-radius: 10px;
+    transition: .5s all ease-in-out;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    padding: 5px 15px;
+    font-weight: bold;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14) , 0 7px 10px -5px rgba(76,175,88,.4) ;
+}
+.zekr .buttons .prev:hover{
+    color: white;
+    background-color: rgb(48, 172, 43);
+}
+.zekr .buttons .next:hover{
+    color: white;
+    background-color: rgb(48, 172, 43);
+}
+.btn2{
+    direction: rtl;
+}
+.zekr .buttons .number{
+    color: green;
+    background-color: transparent;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(76,175,88,.4) ;
+    border:  1px rgb(139, 241, 108) solid;
+    border-radius: 9px;
+}
+
+/* Taspeh Section */
+section h4{
+    font-size: 30px;
+    color: green;
+    text-align: center;
+    left: 50%;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+.taspehContainer{
+    min-height: 350px;
+    position: relative;
+    box-shadow: 4px 4px 4px 0 inset rgb(179, 175, 175),
+                -4px -4px 4px 0px inset rgb(179, 175, 175);
+    color: rgb(27, 23, 19);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:center; 
+    padding: 50px 20px;
+    margin-top: 50px;   
+    cursor: pointer;        
+}
+.taspeh .buttons1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.taspeh .buttons1 div{
+    border: 2px rgb(48, 172, 43) solid;
+    color: rgb(54, 160, 63);
+    margin-top: 12px;
+    border-radius: 10px;
+    transition: .5s all ease-in-out;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    padding: 5px 15px;
+    font-weight: bold;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14) , 0 7px 10px -5px rgba(76,175,88,.4) ;
+}
+.taspeh .buttons1 .prev1:hover{
+    color: white;
+    background-color: rgb(48, 172, 43);
+}
+.taspeh .buttons1 .next1:hover{
+    color: white;
+    background-color: rgb(48, 172, 43);
+}
+.btn2{
+    direction: rtl;
+}
+.taspeh .buttons1 .number1{
+    color: green;
+    background-color: transparent;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(76,175,88,.4) ;
+    border:  1px rgb(139, 241, 108) solid;
+    border-radius: 9px;
+}
+
+@media (max-width : 1024px) {
+    .lecture-container .right, .lecture-container .left {
+        width: 98%;
+    }
+}
